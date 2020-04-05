@@ -1,4 +1,4 @@
 .idea/
 venv/
 dist
-kp_static_version.egg-info
+django_kp_static_version.egg-info
