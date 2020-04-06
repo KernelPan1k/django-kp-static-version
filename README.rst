@@ -9,19 +9,23 @@ a version number to static files and force browsers to use the latest version of
 Quick start
 -----------
 
-1. Add "polls" to your INSTALLED_APPS setting like this::
+1. Install django-kp-static-version::
+
+    pip install django-kp-static-version
+
+2. Add "polls" to your INSTALLED_APPS setting like this::
 
     INSTALLED_APPS = [
         ...
         'kp_static_version',
     ]
 
-2. Load templatetags into your template::
+3. Load templatetags into your template::
 
     {% load kp_static %}
 
 
-3. Load your static file::
+4. Load your static file::
 
     <script src="{% vstatic "js/sample.js" %}"></script>
 
