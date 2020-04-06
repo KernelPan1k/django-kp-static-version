@@ -13,7 +13,7 @@ Quick start
 
     pip install django-kp-static-version
 
-2. Add "polls" to your INSTALLED_APPS setting like this::
+2. Add "kp_static_version" to your INSTALLED_APPS setting like this::
 
     INSTALLED_APPS = [
         ...
